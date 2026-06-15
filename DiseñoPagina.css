@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 40px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.menu-box{
+    width: 200px;
+    height: 140px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 15px;
+    box-shadow: 0 0 10px gray;
+    transition: 0.3s;
+}
+
+.menu-box:hover{
+    transform: scale(1.1);
+    background: #ffe6f0;
+}

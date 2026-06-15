@@ -1,0 +1,23 @@
+body{
+    background-color: pink;
+    text-align: center;
+    font-family: Arial;
+}
+
+h1{
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
